@@ -3,21 +3,19 @@
 <head><title>My Test Extension Options</title></head>
 <body>
 
-UserID:
-<input id = "UserId">
+<form>
+    UserID:<br>
+    <input type="text" name="UserID"><br>
+    Password<br>
+    <input type="text" name="Password"><br><br>
 
-</input>
-
-Password:
-<input id = "password">
-
-</input>
-
+    <button id="save">Log In</button>
+</form>
 
 <div id="status"></div>
-
-<button id="save">Save</button>
+<span id="msg"></span>
 
 <script src="options.js"></script>
+
 </body>
 </html>
